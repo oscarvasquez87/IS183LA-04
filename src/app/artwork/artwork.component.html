@@ -1,0 +1,113 @@
+
+<div id="about-container">
+    <div id="about-container-inner">
+        <!-- <i class="fas fa-camera"></i>
+        <i class="fas fa-camera"></i> -->
+        <app-header></app-header>
+        <div class="art-content">
+            <div class="art-c1">
+                <h1>Self-portrait in a Straw Hat
+                </h1>
+                <p><a href="#">By Louise Elisabeth Lebrum</a></p>
+                <div class="art-c1-content">
+                    <div class="left">
+
+                    </div>
+                    <div class="right">
+                        <p>The painting appears, after cleaning, to be an autograph replica of a picture, the
+                            original of which was painted in Brussels in 1782 in free imitation of Rubens's 'Chapeau
+                            de Paille', which LeBrun had seen in Antwerp. It was exhibited in Paris in 1782 at the
+                            Salon de la Correspondance. LeBrun's original is recorded in a private collection in
+                            France.</p>
+                        <h2 class="red-text">$700</h2>
+                        <div class="btn-group full-width">
+                            <button class="btn btn-light btn-bordered">Add to Wish List</button>
+                            <button class="btn btn-light btn-bordered">Add to Shopping Cart</button>
+                        </div>
+                        <br>
+                        <table class="product-table">
+                            <thead>
+                                <tr>
+                                    <td colspan="2">Product Details</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Date:</td>
+                                    <td>1782</td>
+                                </tr>
+                                <tr>
+                                    <td>Medium:</td>
+                                    <td>Oil on canvas</td>
+                                </tr>
+                                <tr>
+                                    <td>Dimensions:</td>
+                                    <td>98cm x 71cm</td>
+                                </tr>
+                                <tr>
+                                    <td>Home:</td>
+                                    <td>National Gallery, London</td>
+                                </tr>
+                                <tr>
+                                    <td>Genres:</td>
+                                    <td>Realism, Rococo</td>
+                                </tr>
+                                <tr>
+                                    <td>Subjecs:</td>
+                                    <td>People, Arts</td>
+                                </tr>
+                            </tbody>
+                            <tfoot></tfoot>
+                        </table>
+
+                    </div>
+
+
+                </div>
+                <br><br>
+                <h1>Similar Products</h1>
+                <div class="similar-products">
+                        <app-similar-product-card *ngFor="let item of similarProducts" [cardItem]="item"></app-similar-product-card>
+                    <!-- <div class="bordered" *ngFor="let item of similarProducts">
+                        <img [src]="item.image_url" alt="img1">
+                        <p class="small-text">{{item.description}}</p>
+                        <div class="btn-group">
+                            <button class="btn btn-primary btn-bordered"><i class="fas fa-camera"></i> View</button>
+                            <button class="btn btn-success btn-bordered"><i class="fas fa-camera"></i> Wish</button>
+                            <button class="btn btn-info btn-bordered"><i class="fas fa-camera"></i> Cart</button>
+                        </div> 
+                    </div> -->
+                    <!-- <div class="bordered">
+                        <img src="../../assets/img/thumbs/120010.jpg" alt="img1">
+                        <p class="small-text">Artist Holding a Thistle</p>
+                        <div class="btn-group">
+                            <button class="btn btn-primary btn-bordered"><i class="fas fa-camera"></i> View</button>
+                            <button class="btn btn-success btn-bordered"><i class="fas fa-camera"></i> Wish</button>
+                            <button class="btn btn-info btn-bordered"><i class="fas fa-camera"></i> Cart</button>
+                        </div>
+                    </div>
+                    <div class="bordered">
+                        <img src="../../assets/img/thumbs/107010.jpg" alt="img1">
+                        <p class="small-text">Artist Holding a Thistle</p>
+                        <div class="btn-group">
+                            <button class="btn btn-primary btn-bordered"><i class="fas fa-camera"></i> View</button>
+                            <button class="btn btn-success btn-bordered"><i class="fas fa-camera"></i> Wish</button>
+                            <button class="btn btn-info btn-bordered"><i class="fas fa-camera"></i> Cart</button>
+                        </div>
+                    </div>
+                    <div class="bordered">
+                        <img src="../../assets/img/thumbs/106020.jpg" alt="img1">
+                        <p class="small-text">Artist Holding a Thistle</p>
+                        <div class="btn-group">
+                            <button class="btn btn-primary btn-bordered"><i class="fas fa-camera"></i> View</button>
+                            <button class="btn btn-success btn-bordered"><i class="fas fa-camera"></i> Wish</button>
+                            <button class="btn btn-info btn-bordered"><i class="fas fa-camera"></i> Cart</button>
+                        </div>
+                    </div> -->
+                </div>
+            </div>
+            <div class="art-c2">C2</div>
+        </div>
+    </div>
+<app-footer></app-footer>
+</div>
